@@ -4,46 +4,54 @@ export const   Governorates= [
     {
         id: 1,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/course.png"
     },
     {
         id: 2,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/home.png"
 
     },
     {
         id: 3,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/logo.png"
 
     },
     {
         id: 4,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/course.png"
 
     },
     {
         id: 5,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/course.png"
 
     },
     {
         id: 6,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/course.png"
     },
     {
         id: 7,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/course.png"
     },
     {
         id: 8,
         title: "AZ",
-        description: "English Language"
+        description: "English Language",
+        image:"/Image/course.png"
     },
 
 ]

@@ -1,11 +1,11 @@
-import {Divider, HStack, Text, VStack} from "@chakra-ui/react";
+import {Divider, HStack, Spacer, Text, VStack} from "@chakra-ui/react";
 import {useRouter} from "next/router";
 import SimpleNavBar from "../Component/NavBar";
 import MainBody from "./MainBody";
-import {trans} from "../trans";
 import DividerText from "../Component/DividerText";
-import CardCarousel from "../Component/Carousel";
 import LargeWithNewsletter from "../Component/Footer";
+import {ClerksCarousel, GovernoratesCarousel, RealtyCarousel} from "../Component/Carousel";
+
 // @ts-ignore
 export default function Home({content}) {
     const {locale} = useRouter();
@@ -15,9 +15,14 @@ export default function Home({content}) {
         <VStack dir={dir}>
           <SimpleNavBar />
            <MainBody />
+            <Spacer  />
+            <DividerText title={"search_by_governorates"} />
+           <RealtyCarousel />
+            <DividerText title={"search_by_governorates"} />
+            <GovernoratesCarousel />
             <DividerText title={"our_clerks"} />
-           <CardCarousel />
-         <DividerText title={"search_by_governorates"} />
+            <ClerksCarousel />
+
 
 
 

@@ -9,7 +9,7 @@ export default function CartFooterText({amount,unit}) {
         <Flex>
             <Text pl={'1'} pr={'1'} fontSize={{base:'l',md:'xl'}} fontWeight={'bold'}
                   textColor={'brand.black'}>{amount}</Text>
-            <Text pt={{base:'5',md:'3'}} color="brand.button_gray" fontSize={{base:'sm',md:'sm'}}>
+            <Text pt={{base:'1',md:'2'}} color="brand.button_gray" fontSize={{base:'sm',md:'sm'}}>
                 {unit}
             </Text>
         </Flex>
