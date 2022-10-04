@@ -1,4 +1,23 @@
 {
   "item_title": "شاحنات",
-  "change_app_language": "English"
+  "change_app_language": "English",
+  "main": "الرئيسية",
+  "for_sale": "للبيع",
+  "for_rent": "للإيجار",
+  "clerks": "الوكلاء العقاريون",
+  "arch_and_construction": "الهندسة والبناء",
+  "contact_us": "اتصل بنا",
+  "add_realty": "أضف عقار",
+  "add_search_word": "كلمة البحث",
+  "add_region": "اختر المنطقة",
+  "add_governorates": "اختر المحافظة",
+  "type_realty": "نوع العقار",
+  "search": "بحث",
+  "search_by_governorates": "تصفح حسب المحافظة",
+  "our_clerks": "وكلائنا",
+  "follow_us": "تابعونا",
+  "access_link": "روابط سريعة",
+  "about_us": "عن الموقع",
+  "privacy_police": "الشروط والأحكام",
+  "payment_method": "طرق الدفع"
 }

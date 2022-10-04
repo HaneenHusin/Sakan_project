@@ -3,18 +3,21 @@ import type {GetStaticProps, NextPage} from 'next'
 import {useRouter} from "next/router";
 
 import dynamic from "next/dynamic";
-import Home from "./Home";
+// import Home from "./Home";
 import path from "path";
 import * as fs from "fs";
+import Home from "./Home";
 
 export default function Index() {
+  const { locale } = useRouter();
+
   const Home = dynamic(
       () => import('./Home'),
       { ssr: false }
   )
   return (
-       <Home content={'hello'} />
-      // <Home />
+     <Home content={'hello'} />
+       // <Home />
   )
 }
 export const getStaticProps: GetStaticProps = async (ctx) => {

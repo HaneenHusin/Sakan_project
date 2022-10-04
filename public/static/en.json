@@ -1,4 +1,23 @@
 {
   "item_title": "VANS",
-  "change_app_language": "العربية"
+  "change_app_language": "العربية",
+  "main": "Main",
+  "for_sale": "Sales",
+  "for_rent": "Rent",
+  "clerks": "Clerks",
+  "arch_and_construction": "Architecture and Construction",
+  "contact_us": "Contact Us",
+  "add_realty": "Add Realty",
+  "add_search_word": "Input Search Word",
+  "add_region": "Chose Region",
+  "add_governorates": "Chose Governorates",
+  "type_realty": "Realty Type",
+  "search": "Search",
+  "search_by_governorates": "Search by governorates",
+  "our_clerks": "Our Clerks",
+  "follow_us": "Follow us",
+  "access_link": "Access Link",
+  "about_us": "About Us",
+  "privacy_police": "Privacy Policy",
+  "payment_method": "payment methode"
 }
